@@ -4,7 +4,7 @@
     "summary": "A next-gen machine learning module for data scientists: explainable, interpretable, and production-ready.",
     "metrics": "⚡ 3× faster builds to prod · 🧠 reliable models · 🚀 Scikit-learn integration",
     "image": "/assets/hero/astra-ai.png",
-    "url": "/projects/astra-ai/",
+    "url": "https://pypi.org/project/astra-ai/",
     "tags": ["Python", "ML", "Data Scientist toolkit"]
   },
   {
@@ -12,7 +12,7 @@
     "summary": "Powerful machine learning solution for regression tasks with basis expansions and feature embeddings",
     "metrics": "📈 open-source · 💡 Leverages Fourier, polynomial & atom bases",
     "image": "/assets/articles/orbit.png",
-    "url": "https://your-site.github.io/orbit",
+    "url": "https://medium.com/@jceweaver/introduction-to-orbit-order-aware-regression-model-with-basis-interactions-trends-8abbe8c56fe2",
     "tags": ["Python", "Modeling", "Explainability"]
   }
 ]
