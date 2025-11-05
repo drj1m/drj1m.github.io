@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Introduction to ORBIT: Order-Aware Regression model with Basis, Interactions & Trends",
+    "subtitle": "A new, novel machine learning solution for regression modelling",
+    "url": "https://medium.com/@jceweaver/introduction-to-orbit-order-aware-regression-model-with-basis-interactions-trends-8abbe8c56fe2",
+    "date": "04-11-2025",
+    "readingTime": 17,
+    "tags": ["Data Science", "Timeseries", "Python"],
+    "image": "/assets/articles/orbit.png"
+  },
+  {
+    "title": "Unravelling Complexity: A Novel Approach to Manifold Learning Using Noise Injection",
+    "subtitle": "Covering PCA, Local Linear Embedding, Spectral Embedding and Isometric Feature Mapping",
+    "url": "https://medium.com/data-science/unravelling-complexity-a-novel-approach-to-manifold-learning-using-oise-injection-41251565fded",
+    "date": "17-11-2023",
+    "readingTime": 14,
+    "tags": ["Data Science", "Manifold Learning", "Deep Dive", "TDS"],
+    "image": "/assets/articles/manifold_learning.png"
+  },
+  {
+    "title": "Exposing the Power of the Kalman Filter",
+    "subtitle": "A comprehensive breakdown of how the Kalman Filter works",
+    "url": "https://medium.com/data-science/exposing-the-power-of-the-kalman-filter-1b78621c3f56",
+    "date": "7-11-2023",
+    "readingTime": 17,
+    "tags": ["Data Science", "Forecasting", "State Space", "Deep Dive", "TDS"],
+    "image": "/assets/articles/kalman_filter.png"
+  }
+]

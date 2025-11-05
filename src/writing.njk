@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+title: Writing
+description: Essays and posts; highlights from Medium.
+---
+<h1 class="text-3xl font-semibold mb-6">Writing</h1>
+<p>See all posts on <a class="hover:underline" href="{{ site.social.medium }}" target="_blank" rel="noopener">Medium</a>. Curated highlights:</p>
+
+<ul class="mt-4 list-disc pl-6 space-y-2">
+  {% for w in resume.writing %}
+    <li><a class="hover:underline" href="{{ w.url }}" target="_blank" rel="noopener">{{ w.title }}</a> <span class="text-sm text-slate-500">· {{ w.note }}</span></li>
+  {% endfor %}
+</ul>

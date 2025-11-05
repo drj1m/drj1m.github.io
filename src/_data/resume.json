@@ -1,0 +1,52 @@
+{
+  "experience": [
+    {
+      "title": "Head of Data Delivery",
+      "company": "VodafoneThree",
+      "period": "2025 — Present",
+      "summary": "Responsible for the end-to-end delivery management across all initiatives for B2B",
+      "impact": [
+        "Leading scalable deliveries across four multidisciplinary teams",
+        "Owning goverance on delivery, AI and data.",
+        "Deep experience working across mutl-domain projects.",
+        "Proven experience improving deliery flow and predictability."
+      ],
+      "tags": ["SAFe", "Delivery Governance", "Leadership", "Team Management"]
+    },
+    {
+      "title": "Lead Data Scientist",
+      "company": "Vodafone",
+      "period": "2023 — 2025",
+      "summary": "Driving innovative data-drive solutions across B2B deliveries",
+      "impact": [
+        "Led the development and deployment of advanced analyical and AL/ML solutions.",
+        "Owned the strategy for data science.",
+        "Partnered with stakeholders to deliver meaningful solutions to business needs.",
+        "Mentored and managed the Data Science team, driving innovation and foestering a culture of technical excellence."
+      ],
+      "tags": ["Data Science", "Machine Learning & AI", "MLOps", "Team Management", "Python", "Big Data"]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "Vodafone & BP",
+      "period": "2016 — 2023",
+      "summary": "Delivered Data Science solutions in the Telco and Oil & gas industries, with parcticular focus on optimisation and time-series forecasting.",
+      "impact": [
+        "Putting the customer at the heart of network design using advanced analytical solutions.",
+        "Delivered a state spacetime-series solution for opertaional logistics (tanker scheduling).",
+        "Built predictive solutions to predict and in turn protect revenue errosion.",
+        "Levaraged NLP techniques to perform ETL operations to standardise and democratise data for reporting."
+      ],
+      "tags": ["Data Science", "Machine Learning & AI", "MLOps", "Team Management", "Python", "Big Data"]
+    }
+  ],
+  "skills": ["RAID Management", "Delivery Design", "Machine Learning & AI", "Qualitiy Assurance & Continuous Improvement", "Descriptive & Prescriptive Analytics", "Data Mining", "Time Series Forecasting"],
+  "education": [
+    { "degree": "PhD Cybernetics", "institution": "Reading Univeristy", "period": "2012 — 2016" },
+    { "degree": "BSc Biomedical Engineering and Cybernetics", "institution": "Reading Univeristy", "period": "2019 — 2012" }
+  ],
+  "writing": [
+    { "title": "Exposing the Power of the Kalman Filter", "url": "https://medium.com/data-science/exposing-the-power-of-the-kalman-filter-1b78621c3f56", "note": "Medium" },
+    { "title": "Unravelling Complexity: A Novel Approach to Manifold Learning Using Noise Injection", "url": "https://medium.com/data-science/unravelling-complexity-a-novel-approach-to-manifold-learning-using-oise-injection-41251565fded", "note": "Medium" }
+  ]
+}

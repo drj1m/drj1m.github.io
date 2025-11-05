@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Personalised, Multi-Modal, Affective State Detection for Hybrid Brain-Computer Music Interfacing",
+    "authors": ["I.Daly", "D.Williams", "A.Malik", "J.Weaver", "A.Kirke", "F.Hwang"],
+    "venue": "IEEE",
+    "year": 2018,
+    "summary": "Brain-computer music interfaces (BCMIs) may be used to modulate affective states, with applications in music therapy, composition, and entertainment. However, for such systems to work they need to be able to reliably detect their user's current affective state. We present a method for personalised affective state detection for use in BCMI. We compare it to a population-based detection method trained on 17 users and demonstrate that personalised affective state detection is significantly (p <; 0.01) more accurate, with average improvements in accuracy of 10.2 percent for valence and 9.3 percent for arousal. We also compare a hybrid BCMI (a BCMI that combines physiological signals with neurological signals) to a conventional BCMI design (one based upon the use of only EEG features) and demonstrate that the hybrid design results in a significant (p <; 0.01) 6.2 percent improvement in performance for arousal classification and a significant (p <; 0.01) 5.9 percent improvement for valence classification.",
+    "links": {
+      "doi": "https://doi.org/10.1109/TAFFC.2018.2801811"
+    },
+    "tags": ["EEG", "GSR", "affective state detection", "BCMI", "personalised affective state detection"]
+  },
+  {
+    "title": "Directed Motor-Auditory EEG Connectivity Is Modulated by Music Tempo",
+    "authors": ["N.Nicolaou", "A.Malik", "I.Daly", "J.Weaver", "F.Hwang", "A.Kirke", "E.Roesch", "D.Williams", "E.Miranda", "S.Nasuto"],
+    "venue": "Frontiers in Human Neuroscience",
+    "year": 2017,
+    "summary": "Beat perception is fundamental to how we experience music, and yet the mechanism behind this spontaneous building of the internal beat representation is largely unknown. Existing findings support links between the tempo (speed) of the beat and enhancement of electroencephalogram (EEG) activity at tempo-related frequencies, but there are no studies looking at how tempo may affect the underlying long-range interactions between EEG activity at different electrodes. The present study investigates these long-range interactions using EEG activity recorded from 21 volunteers listening to music stimuli played at 4 different tempi (50, 100, 150 and 200 beats per minute). The music stimuli consisted of piano excerpts designed to convey the emotion of “peacefulness”. Noise stimuli with an identical acoustic content to the music excerpts were also presented for comparison purposes. The brain activity interactions were characterized with the imaginary part of coherence (iCOH) in the frequency range 1.5–18 Hz (δ, θ, α and lower β) between all pairs of EEG electrodes for the four tempi and the music/noise conditions, as well as a baseline resting state (RS) condition obtained at the start of the experimental task. Our findings can be summarized as follows: (a) there was an ongoing long-range interaction in the RS engaging fronto-posterior areas; (b) this interaction was maintained in both music and noise, but its strength and directionality were modulated as a result of acoustic stimulation; (c) the topological patterns of iCOH were similar for music, noise and RS, however statistically significant differences in strength and direction of iCOH were identified; and (d) tempo had an effect on the direction and strength of motor-auditory interactions. Our findings are in line with existing literature and illustrate a part of the mechanism by which musical stimuli with different tempi can entrain changes in cortical activity.",
+    "links": {
+      "doi": "https://doi.org/10.3389/fnhum.2017.00502"
+    },
+    "tags": ["coherence analysis", "imaginary coherency", "electroencephalography (EEG)", "music tempo", "brain connectivity analysis"]
+  },
+  {
+    "title": "Affective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition System",
+    "authors": ["D.Williams", "A.Kirke", "E.Miranda", "I.Daly", "F.Hwang", "J.Weaver", "S.Nasuto"],
+    "venue": "ACM Transactions on Applied Perception",
+    "year": 2017,
+    "summary": "Affectively driven algorithmic composition (AAC) is a rapidly growing field that exploits computer-aided composition in order to generate new music with particular emotional qualities or affective intentions. An AAC system was devised in order to generate a stimulus set covering nine discrete sectors of a two-dimensional emotion space by means of a 16-channel feed-forward artificial neural network. This system was used to generate a stimulus set of short pieces of music, which were rendered using a sampled piano timbre and evaluated by a group of experienced listeners who ascribed a two-dimensional valence-arousal coordinate to each stimulus. The underlying musical feature set, initially drawn from the literature, was subsequently adjusted by amplifying or attenuating the quantity of each feature in order to maximize the spread of stimuli in the valence-arousal space before a second listener evaluation was conducted. This process was repeated a third time in order to maximize the spread of valence-arousal coordinates ascribed to the generated stimulus set in comparison to a spread taken from an existing prerated database of stimuli, demonstrating that this prototype AAC system is capable of creating short sequences of music with a slight improvement on the range of emotion found in a stimulus set comprised of real-world, traditionally composed musical excerpts.",
+    "links": {
+      "doi": "https://doi.org/10.1145/305900"
+    },
+    "tags": ["applied computing", "sound and music computing"]
+  },
+  {
+    "title": "Affective brain–computer music interfacing",
+    "authors": ["I.Daly","D.Williams","A.Kirke","J.Weaver","A.Malik","F.Hwang"],
+    "venue": "Journal of Neural Engineering",
+    "year": 2016,
+    "summary": "Objective. We aim to develop and evaluate an affective brain–computer music interface (aBCMI) for modulating the affective states of its users. Approach. An aBCMI is constructed to detect a user's current affective state and attempt to modulate it in order to achieve specific objectives (for example, making the user calmer or happier) by playing music which is generated according to a specific affective target by an algorithmic music composition system and a case-based reasoning system. The system is trained and tested in a longitudinal study on a population of eight healthy participants, with each participant returning for multiple sessions. Main results. The final online aBCMI is able to detect its users current affective states with classification accuracies of up to 65% (3 class, ) and modulate its user's affective states significantly above chance level . Significance. Our system represents one of the first demonstrations of an online aBCMI that is able to accurately detect and respond to user's affective states. Possible applications include use in music therapy and entertainment.",
+    "links": {
+      "doi": "https://doi.org/10.1088/1741-2560/13/4/046022"
+    },
+    "tags": ["BCMI", "electroencephalography (EEG)"]
+  },
+  {
+    "title": "Identifying music-induced emotions from EEG for use in brain-computer music interfacing",
+    "authors": ["I.Daly","A.Malik", "J.Weaver", "F.Hwang", "S.Nasuto","D.Williams","A.Kirke", "E.Miranda"],
+    "venue": "IEEE",
+    "year": 2015,
+    "summary": "Brain-computer music interfaces (BCMI) provide a method to modulate an individuals affective state via the selection or generation of music according to their current affective state. Potential applications of such systems may include entertainment of therapeutic applications. We outline a proposed design for such a BCMI and seek a method for automatically differentiating different music induced affective states. Band-power features are explored for use in automatically identifying music-induced affective states. Additionally, a linear discriminant analysis classifier and a support vector machine are evaluated with respect to their ability to classify music induced affective states from the electroencephalogram recorded during a BCMI calibration task. Accuracies of up to 79.5% (p <; 0.001) are achieved with the support vector machine.",
+    "links": {
+      "doi": "https://doi.org/10.1109/ACII.2015.7344685"
+    },
+    "tags": ["Electroencephalography", "Music", "Support vector machines", "Calibration", "Brain models"]
+  }
+]

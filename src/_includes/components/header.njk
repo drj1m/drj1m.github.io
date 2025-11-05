@@ -1,0 +1,18 @@
+<header class="py-6 flex justify-between items-center">
+  <a href="/" class="font-semibold text-xl">{{ site.title }}</a>
+  <nav class="flex items-center gap-6">
+    <a href="/projects/" class="hover:underline">Projects</a>
+    <a href="/publications/" class="hover:underline">Publications</a>
+    <a href="/articles/" class="hover:underline">Articles</a>
+    <a href="/about/" class="hover:underline">About / Resume</a>
+    <button id="themeToggle" class="rounded px-3 py-1 border text-sm">Theme</button>
+  </nav>
+  <script>
+    const btn = document.getElementById('themeToggle');
+    btn?.addEventListener('click', () => {
+      const root = document.documentElement;
+      const dark = root.classList.toggle('dark');
+      localStorage.setItem('theme', dark ? 'dark' : 'light');
+    });
+  </script>
+</header>

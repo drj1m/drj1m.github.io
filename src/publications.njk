@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+title: Publications
+description: Peer-reviewed papers and preprints.
+permalink: /publications/index.html
+---
+<h1 class="text-3xl font-semibold mb-6">Publications</h1>
+
+{% set pubs = publications or [] %}
+{% if pubs | length == 0 %}
+  <p class="text-slate-400">No publications yet. Add entries to <code>src/_data/publications.json</code>.</p>
+{% else %}
+  <div class="space-y-4">
+    {% for p in pubs | reverse %}
+    <article class="p-5 rounded-2xl border border-slate-800">
+      <div class="flex flex-wrap items-baseline gap-2">
+        <span class="text-sm text-slate-400">{{ p.year }}</span>
+        <h2 class="font-semibold">
+          {% if p.links and (p.links.doi or p.links.arxiv or p.links.pdf) %}
+            <a class="hover:underline" href="{{ p.links.doi or p.links.arxiv or p.links.pdf }}" target="_blank" rel="noopener">{{ p.title }}</a>
+          {% else %}
+            {{ p.title }}
+          {% endif %}
+        </h2>
+        {% if p.venue %}<span class="text-sm text-slate-400">· {{ p.venue }}</span>{% endif %}
+      </div>
+
+      {% if p.authors %}
+        <p class="text-sm text-slate-300 mt-1">
+          {{ p.authors | join(', ') }}
+        </p>
+      {% endif %}
+
+      {% if p.summary %}
+        <p class="mt-3 text-slate-300">{{ p.summary }}</p>
+      {% endif %}
+
+      <div class="mt-3 flex flex-wrap gap-2">
+        {% if p.links and p.links.doi %}<a class="px-2 py-1 text-xs rounded-full border border-slate-700" href="{{ p.links.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+        {% if p.links and p.links.arxiv %}<a class="px-2 py-1 text-xs rounded-full border border-slate-700" href="{{ p.links.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+        {% if p.links and p.links.pdf %}<a class="px-2 py-1 text-xs rounded-full border border-slate-700" href="{{ p.links.pdf }}" target="_blank" rel="noopener">PDF</a>{% endif %}
+        {% if p.links and p.links.code %}<a class="px-2 py-1 text-xs rounded-full border border-slate-700" href="{{ p.links.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+        {% if p.links and p.links.slides %}<a class="px-2 py-1 text-xs rounded-full border border-slate-700" href="{{ p.links.slides }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+        {% if p.links and p.links.poster %}<a class="px-2 py-1 text-xs rounded-full border border-slate-700" href="{{ p.links.poster }}" target="_blank" rel="noopener">Poster</a>{% endif %}
+      </div>
+
+      {% if p.tags %}
+        <div class="mt-3 flex flex-wrap gap-2">
+          {% for t in p.tags %}
+            <span class="px-2 py-1 rounded-full text-xs border border-slate-700">{{ t }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </article>
+    {% endfor %}
+  </div>
+{% endif %}

@@ -1,0 +1,42 @@
+---
+layout: layouts/base.njk
+title: Articles
+description: Selected essays and engineering write-ups; highlights from Medium.
+permalink: /articles/index.html
+---
+<h1 class="text-3xl font-semibold mb-6">Articles</h1>
+
+{% set posts = articles or [] %}
+{% if posts | length == 0 %}
+  <p class="text-slate-400">No articles found yet. Add items to <code>src/_data/articles.js</code>.</p>
+{% else %}
+  <div class="grid md:grid-cols-2 gap-6">
+    {% for a in posts %}
+    <article class="rounded-2xl border border-slate-800 overflow-hidden hover:shadow-sm transition">
+      {% if a.image %}
+        <a href="{{ a.url }}" target="_blank" rel="noopener">
+          <img src="{{ a.image }}" alt="{{ a.title }}" class="w-full h-44 object-cover">
+        </a>
+      {% endif %}
+      <div class="p-5">
+        <a href="{{ a.url }}" target="_blank" rel="noopener"><h2 class="text-xl font-semibold">{{ a.title }}</h2></a>
+        {% if a.subtitle %}<p class="mt-2 text-slate-300">{{ a.subtitle }}</p>{% endif %}
+        <p class="mt-2 text-sm text-slate-400">
+          {{ a.date }}{% if a.readingTime %} · {{ a.readingTime }} min read{% endif %}
+        </p>
+        {% if a.tags %}
+        <div class="mt-3 flex flex-wrap gap-2">
+          {% for t in a.tags %}
+            <span class="px-2 py-1 rounded-full text-xs border border-slate-700">{{ t }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<p class="mt-10 text-slate-400">
+  See everything on <a class="hover:underline" href="{{ site.social.medium }}" target="_blank" rel="noopener">Medium</a>.
+</p>
