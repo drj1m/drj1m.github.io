@@ -11,7 +11,7 @@
         "Deep experience working across mutl-domain projects.",
         "Proven experience improving deliery flow and predictability."
       ],
-      "tags": ["SAFe", "Delivery Governance", "Leadership", "Team Management"]
+      "tags": ["SAFe", "Delivery Governance", "Leadership", "Team Management", "Risk Management"]
     },
     {
       "title": "Lead Data Scientist",
@@ -24,7 +24,7 @@
         "Partnered with stakeholders to deliver meaningful solutions to business needs.",
         "Mentored and managed the Data Science team, driving innovation and foestering a culture of technical excellence."
       ],
-      "tags": ["Data Science", "Machine Learning & AI", "MLOps", "Team Management", "Python", "Big Data"]
+      "tags": ["Data Science", "Machine Learning & AI", "MLOps", "Team Management", "Python", "PySpark", "Big Data", "AWS", "GCP"]
     },
     {
       "title": "Data Scientist",
@@ -37,10 +37,10 @@
         "Built predictive solutions to predict and in turn protect revenue errosion.",
         "Levaraged NLP techniques to perform ETL operations to standardise and democratise data for reporting."
       ],
-      "tags": ["Data Science", "Machine Learning & AI", "MLOps", "Team Management", "Python", "Big Data"]
+      "tags": ["Data Science", "Machine Learning & AI", "Python", "PySpark", "Big Data"]
     }
   ],
-  "skills": ["RAID Management", "Delivery Design", "Machine Learning & AI", "Qualitiy Assurance & Continuous Improvement", "Descriptive & Prescriptive Analytics", "Data Mining", "Time Series Forecasting"],
+  "skills": ["Python", "PySpark", "C++", "C#", "Git", "CI-CD", "RAID Management", "Delivery Design", "Machine Learning & AI", "Manifold Learning", "Qualitiy Assurance & Continuous Improvement", "Descriptive & Prescriptive Analytics", "Data Mining", "Time Series Forecasting", "State-Space Modelling"],
   "education": [
     { "degree": "PhD Cybernetics", "institution": "Reading Univeristy", "period": "2012 — 2016" },
     { "degree": "BSc Biomedical Engineering and Cybernetics", "institution": "Reading Univeristy", "period": "2019 — 2012" }
